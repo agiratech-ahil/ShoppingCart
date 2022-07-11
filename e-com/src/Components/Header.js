@@ -74,6 +74,13 @@ export default function Header() {
             </Dropdown.Menu>
           </Dropdown>
         </Nav>
+
+        <Button
+          style={{ backgroundColor: "green", border: "none" }}
+          className="navbar1"
+        >
+          <Link to="/signup">SignUp</Link>
+        </Button>
       </Container>
     </Navbar>
   );

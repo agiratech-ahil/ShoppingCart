@@ -49,3 +49,56 @@
   flex-direction: column;
   justify-content: space-around;
 }
+.navbar1 {
+  margin-left: -100px;
+}
+.form {
+  display: grid;
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+.form-title {
+  text-align: center;
+}
+.Signup-Form {
+  width: 30%;
+  border-radius: 20px;
+  margin: auto;
+  background-color: #343a40;
+  box-sizing: border-box;
+  padding: 40px;
+  color: white;
+  margin-top: 100px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 10px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid gray;
+  color: rgb(248, 243, 243);
+  border-radius: 5px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.but {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 1s;
+  border-radius: 15px;
+}
+
+.error {
+  color: red;
+}
